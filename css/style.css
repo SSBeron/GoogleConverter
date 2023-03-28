@@ -1,0 +1,97 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(220, 164, 164);
+    max-width: 100%;
+    /* padding-top: 100px; */
+    font-family: sans-serif;
+}
+main{
+    border: 1px solid rgb(113, 108, 108);
+    width: 600px;
+    height: 240px;
+    border-radius: 10px;
+     padding: 20px;
+     background-color: rgb(192, 218, 230);
+     box-shadow:5px 5px 25px black;
+     background-image:  url(../img/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+}
+input{
+    width: 212px;
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    border-radius: 10px 10px 0 0;
+}
+
+#left{
+    display: inline-block;
+}
+
+#right{
+    margin-left: 10px;
+    display: inline-block;
+    margin: 0;
+}
+
+.valuePicker, label{
+    width: 212px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 0px 0 10px 10px;
+    border: 1px solid white;
+}
+
+
+#selector-1{
+    padding: 5px 10px;
+    width: 452px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.equal{
+display: inline-block;
+font-size: 2rem;
+color: rgb(255, 255, 255);
+}
+
+span{
+display: inline-block;
+margin-top: 20px;
+background-color: rgb(250, 104, 0);
+padding: 8px;
+border-radius: 4px;
+text-align: center;
+float: left;
+border-radius: 10px 0px 0px 10px;
+}
+
+#formula{
+    display: inline;
+    float: left;
+    background-color: #fff;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#valuePicker-r, label{
+    margin-left: 23px;
+    width: 212px;
+}
+
+label{
+    background-color: #fff;
+    text-align: center;
+}
+
+#label-left{
+margin-left: -0px;
+}

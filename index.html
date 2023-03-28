@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <select id="selector-1">
+                <option value="temperature">Temperature</option>
+                <option value="distance">Distance</option>
+                <option value="length">Length</option>
+                <option value="weight">Weight</option>
+                <option value="time">Time</option>
+            </select>
+
+            <!-- Temperature (C > F)
+            Distance (Foot > Mile)
+            Length (CM > IN)
+            Weight (KG > LB)
+            Time (Sec > Min) -->
+            
+            <section>
+	<div id="left">
+        <input id="input-left" type="number" value="212">
+        <label id="label-left" for="input-left" class="select-label">Farenheit</label>
+<!--             
+            <select id="valuePicker-l" class="valuePicker">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="mile">Mile</option>
+                <option value="inch">Inch</option>
+                <option value="kilogram">Kilogram</option>
+                <option value="day">Hour</option>
+            </select> -->
+
+    </div>
+	<div id="right">
+        <div  class="equal">=</div>
+        <input id="input-right" type="number"  value="100">
+        <label id="label-right" for="input-right" class="select-label">Celsius</label>
+
+        
+            <!-- <select id="valuePicker-r" class="valuePicker">
+                <option value="celsius">Celsius</option>
+                <option value="feet">Feet</option>
+                <option value="centimeter">Centimeter</option>
+                <option value="pound">Pound</option>
+                <option value="seconds">Second</option>
+            </select> -->
+    </div>
+    
+        </section>
+        <span>Formula:</span>
+        <p id="formula">F = C * 9/5 + 32</p>
+    </main>
+
+    <!-- Conversion Formulas:
+Temperature: Fahrenheit (F), Celsius (C)
+F = C * 9/5 + 32
+C = (F - 32) x 5/9
+Distance: mile (mi), feet (ft)
+1 mi = 5280 ft
+Length: inch (in), centimeter (cm)
+1 in = 2.54 cm
+Weight kilogram (kg), pound (lb), ounce (oz)
+1 kg = 2.20462 lb
+Time second (sec), minute (min), hour (hr), day
+1 min = 60 sec -->
+
+    <script src="js/app.js"></script>
+</body>
+</html>
