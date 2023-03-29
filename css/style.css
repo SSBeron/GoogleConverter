@@ -2,10 +2,13 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
+    justify-content: center;
     background-color: rgb(220, 164, 164);
     max-width: 100%;
     /* padding-top: 100px; */
     font-family: sans-serif;
+    
 }
 main{
     border: 1px solid rgb(113, 108, 108);
@@ -24,6 +27,7 @@ input{
     font-size: 2rem;
     color: black;
     border-radius: 10px 10px 0 0;
+    border-color: black;
 }
 
 #left{
@@ -94,4 +98,9 @@ label{
 
 #label-left{
 margin-left: -0px;
+border: 2px solid rgb(75, 74, 74);
+}
+
+#label-right{
+border: 2px solid rgb(75, 74, 74);
 }
